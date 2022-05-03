@@ -1,0 +1,15 @@
+#BoldNavFont{
+    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+  }
+#BoldTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+#PinkTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Mono', monospace;
+  color: #E61366;
+}
+
