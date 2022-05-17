@@ -1,11 +1,20 @@
 #BoldTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-family: 'Space Mono', monospace;
   font-size: xx-large;
 }
+#WhiteTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: xx-large;
+  color:white;
+}
 #MonoSpaceFont{
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Grotesk", sans-serif;
   font-size: large;
+}
+#WhiteMonoSpaceFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: large;
+  color: white;
 }
 #ButtonFont{
   font-family: "Space Grotesk", sans-serif;
@@ -14,14 +23,12 @@
 }
 #PinkTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-family: 'Space Mono', monospace;
   color: #E61366;
   font-size: xx-large;
 }
 #PurpleTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-family: 'Space Mono', monospace;
-  color: #6F0B51;
+  color: #B2007D;
   font-size: xx-large;
 }
 .d-flex justify-content-center{
@@ -38,5 +45,8 @@ body{
 }
 
 .Toolbox{
-  background-color: #d3d3d3;
+  height: 500px;
+  width: 300px;
+  border-radius: 25px;
+  background-color: #130C40;
 }
