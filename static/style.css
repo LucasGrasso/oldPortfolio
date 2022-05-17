@@ -99,6 +99,7 @@ body{
   width: 100%;
   border-radius: 25px;
   background-color: #130C40;
+  padding-bottom: 25px;
 }
 
 .containerTitulo{
@@ -266,6 +267,10 @@ footer p {
 }
 
 input[type="text"]
+{
+  font-family: "Space Grotesk", sans-serif;
+}
+input[type="email"]
 {
   font-family: "Space Grotesk", sans-serif;
 }
