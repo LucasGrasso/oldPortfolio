@@ -10,11 +10,13 @@
 #MonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: large;
+  text-decoration: none;
 }
 #WhiteMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: large;
   color: white;
+  text-decoration: none;
 }
 #ButtonFont{
   font-family: "Space Grotesk", sans-serif;
@@ -30,6 +32,10 @@
   font-family: "Space Grotesk", sans-serif;
   color: #B2007D;
   font-size: xx-large;
+}
+
+#SocialMedia{
+  height: 45px;
 }
 .d-flex justify-content-center{
   margin-top: 10px;
