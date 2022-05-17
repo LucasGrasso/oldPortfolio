@@ -1,15 +1,42 @@
-#BoldNavFont{
-    font-family: "Space Grotesk", sans-serif;
-    font-family: 'Space Mono', monospace;
-    text-align: right;
-  }
 #BoldTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-family: 'Space Mono', monospace;
+  font-size: xx-large;
+}
+#MonoSpaceFont{
+  font-family: 'Space Mono', monospace;
+  font-size: large;
+}
+#ButtonFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-size: x-large;
 }
 #PinkTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-family: 'Space Mono', monospace;
   color: #E61366;
+  font-size: xx-large;
+}
+#PurpleTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Mono', monospace;
+  color: #6F0B51;
+  font-size: xx-large;
+}
+.d-flex justify-content-center{
+  margin-top: 10px;
 }
 
+.rounded{
+  height: 250px;
+  width: 250px;
+}
+
+body{
+  margin-top: 50px;
+}
+
+.Toolbox{
+  background-color: #d3d3d3;
+}
