@@ -18,6 +18,18 @@
   color: white;
   text-decoration: none;
 }
+#smWhiteMonoSpaceFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+}
+#WhiteTitleMonoSpaceFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
 #ButtonFont{
   font-family: "Space Grotesk", sans-serif;
   font-family: 'Space Mono', monospace;
@@ -27,11 +39,19 @@
   font-family: "Space Grotesk", sans-serif;
   color: #E61366;
   font-size: xx-large;
+  padding-top: 15px;
 }
 #PurpleTitleFont{
   font-family: "Space Grotesk", sans-serif;
   color: #B2007D;
   font-size: xx-large;
+  text-decoration: none;
+}
+#smPurpleTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  color: #B2007D;
+  font-size: large;
+  text-decoration: none;
 }
 
 #SocialMedia{
@@ -39,6 +59,14 @@
 }
 .d-flex justify-content-center{
   margin-top: 10px;
+}
+
+.card-img-top{
+  border-radius:15px 15px 0px 0px
+}
+
+.card{
+  border-radius: 15px;
 }
 
 .rounded{
@@ -51,8 +79,80 @@ body{
 }
 
 .Toolbox{
-  height: 500px;
+  height: auto;
   width: 300px;
   border-radius: 25px;
   background-color: #130C40;
 }
+
+.containerTitulo{
+  padding-bottom: 100px;
+}
+
+.containerSobremi{
+  padding-bottom: 100px;
+}
+.tituloPadding{
+  padding-bottom: 25px;
+}
+.mediaLinks{
+  padding-bottom: 10px;
+}
+
+.card-body{
+  background-color:#130C40;
+  border-radius:0px 0px 15px 15px;
+}
+.btn-primary{
+  background-color:#F42F7D;
+  border-color:#F42F7D;
+}
+.btn-primary:hover {
+  background-color:#6F0B51;
+  border-color:#6F0B51;
+  transition: 0.2s;
+}
+
+
+
+
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
