@@ -2,6 +2,15 @@
   font-family: "Space Grotesk", sans-serif;
   font-size: xx-large;
 }
+#MonoTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Mono", monospace;
+  font-size: xx-large;
+}
+#mTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: medium;
+}
 #WhiteTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: xx-large;
@@ -20,8 +29,13 @@
 }
 #smWhiteMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: small;
+  font-size: medium;
   color: white;
+  text-decoration: none;
+}
+#smMonoSpaceFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: medium;
   text-decoration: none;
 }
 #WhiteTitleMonoSpaceFont{
@@ -55,17 +69,19 @@
 }
 
 #SocialMedia{
-  height: 45px;
+  height: 40px;
 }
 .d-flex justify-content-center{
   margin-top: 10px;
 }
 
 .card-img-top{
-  border-radius:15px 15px 0px 0px
+  border-radius:15px;
+  margin-bottom:10px;
 }
 
 .card{
+  height: 100%;
   border-radius: 15px;
 }
 
@@ -80,7 +96,7 @@ body{
 
 .Toolbox{
   height: auto;
-  width: 300px;
+  width: 100%;
   border-radius: 25px;
   background-color: #130C40;
 }
@@ -92,16 +108,18 @@ body{
 .containerSobremi{
   padding-bottom: 100px;
 }
-.tituloPadding{
+.botonesConoceme{
   padding-bottom: 25px;
 }
-.mediaLinks{
+.mediaLinks,.subtitulo,.tituloPadding,.undertitle{
   padding-bottom: 10px;
 }
 
 .card-body{
+  display: flex;
+  flex-direction: column;
   background-color:#130C40;
-  border-radius:0px 0px 15px 15px;
+  border-radius:15px;
 }
 .btn-primary{
   background-color:#F42F7D;
@@ -110,6 +128,46 @@ body{
 .btn-primary:hover {
   background-color:#6F0B51;
   border-color:#6F0B51;
+  transition: 0.2s;
+}
+
+.btn-primary:active {
+  background-color:#0C043F;
+  border-color:#0C043F;
+  transition: 0.2s;
+}
+
+.btn-danger{
+  background-color:#F42F7D;
+  border-color:#F42F7D;
+}
+.btn-danger:hover {
+  background-color:#6F0B51;
+  border-color:#6F0B51;
+  transition: 0.2s;
+}
+.btn-danger:active {
+  background-color:#0C043F;
+  border-color:#0C043F;
+  transition: 0.2s;
+}
+.btn-outline-primary{
+  border-color:#F42F7D;
+  color:#F42F7D;
+  margin-right: 10px;
+}
+
+.btn-outline-primary:hover{
+  background-color:#6F0B51;
+  color:white;
+  border-color:#6F0B51;
+  transition: 0.2s;
+}
+
+.btn-outline-primary:active {
+  background-color:#0C043F;
+  border-color:#0C043F;
+  color:white;
   transition: 0.2s;
 }
 
@@ -155,4 +213,59 @@ footer p {
   margin-bottom: .25rem;
 }
 
+.subtitulo{
+  margin-bottom: -10px;
+}
+
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.skills {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card-bottom {
+  margin-top: auto;
+}
+
+.album{
+  margin-top: -50px;
+}
+.titleContactame{
+  margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #231380; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #140B48; 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Space Grotesk", sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: "Space Grotesk", sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: "Space Grotesk", sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: "Space Grotesk", sans-serif;
+}
+
+input[type="text"]
+{
+  font-family: "Space Grotesk", sans-serif;
+}
