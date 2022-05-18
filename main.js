@@ -1,11 +1,13 @@
 var nodemailer = require('nodemailer');
-var path = require('path')
+var path = require('path');
+var favicon = require('serve-favicon');
 const express = require('express');
 
 const app = express();
  
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico'))); 
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname+'/views/index.html');
