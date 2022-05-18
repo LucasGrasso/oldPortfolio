@@ -6,10 +6,12 @@
   font-family: "Space Grotesk", sans-serif;
   font-family: "Space Mono", monospace;
   font-size: xx-large;
+  color:white;
 }
 #mTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: medium;
+  color:white;
 }
 #WhiteTitleFont{
   font-family: "Space Grotesk", sans-serif;
@@ -20,6 +22,7 @@
   font-family: "Space Grotesk", sans-serif;
   font-size: large;
   text-decoration: none;
+  color:white;
 }
 #WhiteMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
@@ -83,6 +86,7 @@
 .card{
   height: 100%;
   border-radius: 15px;
+  background-color:#140B48 ;
 }
 
 .rounded{
@@ -104,6 +108,13 @@ body{
 
 .containerTitulo{
   padding-bottom: 100px;
+}
+body{
+  background-color: #0B0435;
+}
+
+h1#BoldTitleFont {
+  color: #F42F7D;
 }
 
 .containerSobremi{
@@ -252,11 +263,11 @@ footer p {
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #231380; 
+  background: #E61366; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #140B48; 
+  background: #40051C; 
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */

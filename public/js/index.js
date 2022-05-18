@@ -12,4 +12,5 @@ function mandarMail(){
         msg: mensaje.value,
       }));
     document.getElementById("formMail").reset();
+    window.alert("Enviado Correctamente");
 }
