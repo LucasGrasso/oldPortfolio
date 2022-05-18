@@ -36,6 +36,12 @@
   color: white;
   text-decoration: none;
 }
+#xsmWhiteMonoSpaceFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+}
 #smMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: medium;
