@@ -207,7 +207,7 @@
     <div class="container d-flex justify-content-around" id="contactame">
       <div class="row contacto">
         <div class="col-md-auto">
-          <form id="formMail" name="contactPortfolio" method="POST" data-netlify="true">
+          <form id="formMail" name="contactPortfolio" method="POST" data-netlify="true" onSubmit="mandarMail(); return false" action="static/success.html">
             <div class="row">
               <div class="col form-group">
                 <input type="text" class="form-control" id="Nombre" placeholder="Nombre" name="name">
