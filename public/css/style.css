@@ -259,15 +259,17 @@ footer p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #0B0435; 
 }
  
 ::-webkit-scrollbar-thumb {
   background: #E61366; 
+  border-radius: calc(15px / 2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #40051C; 
+  border-radius: calc(15px / 2);
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
