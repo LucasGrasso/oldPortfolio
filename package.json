@@ -4,7 +4,8 @@
   "description": "Portfolio de Lucas Grasso",
   "main": "main.js",
   "scripts": {
-    "dev": "main.js"
+    "dev": "main.js",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
