@@ -7,7 +7,7 @@ function mandarMail(){
     xhr.open("POST", "/mandarMail", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({
-        asunto: nombre.value+"("+email.value+"): "+ asunto.value,
+        asunto: nombre.value+"("+ email.value +"): "+ asunto.value,
         mail: email.value,
         msg: mensaje.value,
       }));
