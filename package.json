@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "main.js",
     "start": "node main.js",
+    "vercel-build": "node main.js",
     "build": "node main.js"
   },
   "repository": {
