@@ -314,6 +314,6 @@ input[type="email"]
 }
 @media (max-width: 600px) {
   .containerTitulo{
-    padding-bottom:120px;
+    padding-bottom:140px;
   }
 }
