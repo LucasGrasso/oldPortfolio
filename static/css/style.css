@@ -312,3 +312,8 @@ input[type="email"]
 {
   font-family: "Space Grotesk", sans-serif;
 }
+@media (max-width: 600px) {
+  .containerTitulo{
+    padding-bottom:100px;
+  }
+}
