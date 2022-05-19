@@ -1,4 +1,4 @@
-### [Lucas Grasso Ramos](https://lucasgrasso.herokuapp.com/)
+### [Lucas Grasso Ramos](https://lucasgrasso.com.ar/)
 ---
 
 👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3 y C++. Tengo experiencia en Machine Learning y en diseño de interfaces utilizando herramientas como Figma y TensorFlow.
