@@ -270,6 +270,9 @@ footer p {
 .titleContactame{
   margin-bottom: 20px;
 }
+.col-md-4{
+  margin-bottom: 25px;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
