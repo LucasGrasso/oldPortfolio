@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #BoldTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: xx-large;
@@ -115,8 +119,14 @@ body{
   border-radius: 25px;
   background-color: #130C40;
   padding-bottom: 25px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  
 }
 
+.Toolbox > * {
+  transform: translateZ(40px);
+}
 .gracias{
   margin-left:auto;
   margin-right:auto;
