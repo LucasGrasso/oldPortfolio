@@ -119,13 +119,17 @@ body{
   border-radius: 25px;
   background-color: #130C40;
   padding-bottom: 25px;
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
   
 }
 
-.Toolbox > * {
-  transform: translateZ(40px);
+@media (min-width: 600px) and (orientation:landscape) {
+  .Toolbox{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+  }
+  .Toolbox > * {
+    transform: translateZ(40px);
+  }
 }
 .gracias{
   margin-left:auto;
