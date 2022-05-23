@@ -4,16 +4,16 @@ html {
 
 #BoldTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.7rem,4vw,2.5rem) !important;
+  font-size: clamp(1.7rem,4vw,2.6rem);
 }
 #MonoTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(2rem,3vw,5rem) !important;
+  font-size: clamp(2rem,3vw,5rem);
   color:white;
 }
 #mTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1rem,2vw,2.5rem);
+  font-size: clamp(1rem,2vw,2rem);
   color:white;
 }
 #lTitleFont{
@@ -62,7 +62,7 @@ html {
 #PinkTitleFont{
   font-family: "Space Grotesk", sans-serif;
   color: #E61366;
-  font-size: xx-large;
+  font-size: clamp(1.8rem,4vw,2.2rem);
   padding-top: 15px;
 }
 #PurpleTitleFont{
@@ -164,7 +164,7 @@ body{
 .skills {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -402,6 +402,12 @@ textarea:focus, input:focus {
   body{
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .skills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
   }
   #imgHabilidad{
     height:30px;
