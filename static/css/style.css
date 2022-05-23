@@ -185,7 +185,10 @@ body{
   width:80%;
 }
 .containerTitulo{
-  padding-bottom:85px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end;
 }
 
 h1#BoldTitleFont {
@@ -194,6 +197,7 @@ h1#BoldTitleFont {
 
 #fotomi{
   height: 350px;
+  margin-bottom: 50px;
 }
 .containerSobremi{
   padding-bottom: 100px;
@@ -282,6 +286,9 @@ h1#BoldTitleFont {
   transition: 0.2s;
 }
 
+.lgr{
+      object-fit: contain;
+}
 
 
 
@@ -389,11 +396,6 @@ input[type="email"]
 {
   font-family: "Space Grotesk", sans-serif;
 }
-@media (max-width: 600px) {
-  .containerTitulo{
-    padding-bottom:140px;
-  }
-}
 
 @media (max-width: 600px){
   
@@ -407,8 +409,11 @@ input[type="email"]
   .miConocimiento,.Hablemos{
     margin-top: -50px;
   }
+
   #fotomi{
-    height: 250px !important;
+    height: 300px !important;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
   .descrp{
     font-size: 4vw !important;
