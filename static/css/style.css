@@ -135,6 +135,7 @@ body{
   background-color: #130C40;
   margin-bottom: 10px;
 }
+
 .habilidad{
   padding-bottom: 10px;
   margin-top: 10px;
@@ -394,7 +395,9 @@ textarea:focus, input:focus {
 }
 
 @media (max-width: 600px){
-  
+  .skills{
+    width: fit-content;
+  }
   body{
     padding-left: 10%;
     padding-right: 10%;
