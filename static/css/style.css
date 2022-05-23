@@ -99,9 +99,9 @@ html {
 .card-img-top{
   border-radius:15px;
   cursor: pointer;
+  transition: 0.2s;
 }
 .card-img-top:hover {
-  transition: 0.2s;
   transform: scale(1.1);
 }
 
