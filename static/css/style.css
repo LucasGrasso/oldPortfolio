@@ -91,15 +91,25 @@ html {
 .d-flex justify-content-center{
   margin-top: 10px;
 }
+.containerSobremi{
+  margin-top: 25px;
+}
+
+.imgContainer{
+  height: 500;
+  width: 350;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom:10px;
+}
 
 .card-img-top{
   border-radius:15px;
-  margin-bottom:10px;
   cursor: pointer;
 }
 .card-img-top:hover {
   transition: 0.2s;
-  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
 }
 
 .card{
@@ -115,9 +125,14 @@ html {
 
 body{
   margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #0B0435;
 }
-.Hablemos,.miTrabajo{
-  margin-top: 25px;
+.Hablemos{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: medium;
+  color:white;
 }
 
 .Toolbox{
@@ -143,38 +158,6 @@ body{
   gap: 20px;
   margin-bottom: 25px;
 }
-@media (max-width: 600px){
-  body{
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .descrp{
-    font-size: 4vw !important;
-  }
-  .habilidades {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
-    margin-bottom: 25px;
-  }
-  .habilidad{
-    padding-bottom: 10px;
-    margin-top: 10px;
-    height: auto;
-    width: 50%;
-    border-radius: 25px;
-    background-color: #130C40;
-    margin-bottom: 10px;
-  }
-  .habilidad h1{
-    font-size: 3.5vw !important;
-  }
-  .habilidad p{
-    font-size: 3vw !important;
-  }
-}
-
 #imgHabilidad{
   margin-bottom: 10px;
   margin-top: 10px;
@@ -204,22 +187,23 @@ body{
 .containerTitulo{
   padding-bottom:85px;
 }
-body{
-  background-color: #0B0435;
-}
 
 h1#BoldTitleFont {
   color: #F42F7D;
 }
 
+#fotomi{
+  height: 350px;
+}
 .containerSobremi{
   padding-bottom: 100px;
 }
 .Hablemos,.miTrabajo{
   padding-top: 100px;
+  margin-top: 25px;
 }
 .miConocimiento{
-  padding-top: 75px;
+  padding-top: 50px;
 }
 .contacto{
   padding-bottom: 100px;
@@ -272,11 +256,22 @@ h1#BoldTitleFont {
   color:#F42F7D;
   margin-right: 10px;
 }
-
+.btn-outline-secondary{
+  border-left: none;
+  border-color: white;
+  color: white;
+}
 .btn-outline-primary:hover{
   background-color:#6F0B51;
   color:white;
   border-color:#6F0B51;
+  transition: 0.2s;
+}
+.btn-outline-secondary:hover{
+  border-left: none;
+  background-color:grey;
+  color:white;
+  border-color:grey;
   transition: 0.2s;
 }
 
@@ -397,5 +392,47 @@ input[type="email"]
 @media (max-width: 600px) {
   .containerTitulo{
     padding-bottom:140px;
+  }
+}
+
+@media (max-width: 600px){
+  
+  body{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #SocialMedia{
+    height: 25px;
+  }
+  .miConocimiento,.Hablemos{
+    margin-top: -50px;
+  }
+  #fotomi{
+    height: 250px !important;
+  }
+  .descrp{
+    font-size: 4vw !important;
+  }
+  .habilidades {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .habilidad{
+    padding-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #130C40;
+    margin-bottom: 10px;
+  }
+  .habilidad h1{
+    font-size: 3.5vw !important;
+  }
+  .habilidad p{
+    font-size: 3vw !important;
   }
 }
