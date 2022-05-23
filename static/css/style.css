@@ -8,7 +8,6 @@ html {
 }
 #MonoTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-family: "Space Mono", monospace;
   font-size: xx-large;
   color:white;
 }
@@ -117,6 +116,9 @@ html {
 body{
   margin-top: 50px;
 }
+.Hablemos,.miTrabajo{
+  margin-top: 25px;
+}
 
 .Toolbox{
   height: auto;
@@ -139,13 +141,22 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+  margin-bottom: 25px;
 }
 @media (max-width: 600px){
+  body{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .descrp{
+    font-size: 4vw !important;
+  }
   .habilidades {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
+    margin-bottom: 25px;
   }
   .habilidad{
     padding-bottom: 10px;
@@ -157,7 +168,7 @@ body{
     margin-bottom: 10px;
   }
   .habilidad h1{
-    font-size: 0.5vw;
+    font-size: 3.5vw !important;
   }
   .habilidad p{
     font-size: 3vw !important;
@@ -167,6 +178,7 @@ body{
 #imgHabilidad{
   margin-bottom: 10px;
   margin-top: 10px;
+  height:30px;
 }
 .skills {
   width: 100%;
@@ -203,14 +215,17 @@ h1#BoldTitleFont {
 .containerSobremi{
   padding-bottom: 100px;
 }
-.Hablemos,.miTrabajo,.miConocimiento{
+.Hablemos,.miTrabajo{
   padding-top: 100px;
+}
+.miConocimiento{
+  padding-top: 75px;
 }
 .contacto{
   padding-bottom: 100px;
 }
 .botonesConoceme{
-  padding-bottom: 25px;
+  padding-bottom: 70px;
 }
 .mediaLinks,.subtitulo,.tituloPadding,.undertitle{
   padding-bottom: 10px;
