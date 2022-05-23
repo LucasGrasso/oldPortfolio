@@ -124,10 +124,9 @@ body{
   border-radius: 25px;
   background-color: #130C40;
   margin-bottom: 10px;
-  
 }
 
-@media (min-width: 600px) and (orientation:landscape) {
+@media (min-width: 600px) and (orientation:landscape){
   .Toolbox{
     transform-style: preserve-3d;
     transform: perspective(1000px);
