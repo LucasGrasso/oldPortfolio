@@ -4,21 +4,21 @@ html {
 
 #BoldTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: xx-large;
+  font-size: clamp(1.7rem,4vw,2.5rem) !important;
 }
 #MonoTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: xx-large;
+  font-size: clamp(2rem,3vw,5rem) !important;
   color:white;
 }
 #mTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: medium;
+  font-size: clamp(1rem,2vw,2.5rem);
   color:white;
 }
 #lTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: x-large;
+  font-size: clamp(1.6rem,3vw,4rem);
   color:white;
 }
 #WhiteTitleFont{
@@ -28,43 +28,36 @@ html {
 }
 #MonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: large;
+  font-size: clamp(0.9rem,2vw,1.3rem);
   text-decoration: none;
   color:white;
 }
-#WhiteMonoSpaceFont{
+#smMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: large;
+  font-size: clamp(0.8rem,4vw,1.1rem);
+  text-decoration: none;
+  color:white;
+}
+#smTitleFont{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1rem,2vw,1.7rem);
   color: white;
   text-decoration: none;
 }
-#smWhiteMonoSpaceFont{
+#btnTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  font-size: medium;
+  font-size: clamp(0.95rem,2vw,1.2rem);
   color: white;
   text-decoration: none;
+}
+.undertitle{
+  margin-bottom: 15px;
 }
 #xsmWhiteMonoSpaceFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: small;
   color: white;
   text-decoration: none;
-}
-#smMonoSpaceFont{
-  font-family: "Space Grotesk", sans-serif;
-  font-size: medium;
-  text-decoration: none;
-}
-#WhiteTitleMonoSpaceFont{
-  font-family: "Space Grotesk", sans-serif;
-  font-size: x-large;
-  color: white;
-  text-decoration: none;
-}
-#ButtonFont{
-  font-family: "Space Grotesk", sans-serif;
-  font-family: 'Space Mono', monospace;
-  font-size: x-large;
 }
 #PinkTitleFont{
   font-family: "Space Grotesk", sans-serif;
@@ -131,7 +124,7 @@ body{
 }
 .Hablemos{
   font-family: "Space Grotesk", sans-serif;
-  font-size: medium;
+  font-size: clamp(1rem,2vw,2.5rem);
   color:white;
 }
 
@@ -161,7 +154,7 @@ body{
 #imgHabilidad{
   margin-bottom: 10px;
   margin-top: 10px;
-  height:30px;
+  height:35px;
 }
 .skills {
   width: 100%;
@@ -197,7 +190,6 @@ h1#BoldTitleFont {
 
 #fotomi{
   height: 350px;
-  margin-bottom: 50px;
 }
 .containerSobremi{
   padding-bottom: 100px;
@@ -206,6 +198,7 @@ h1#BoldTitleFont {
   padding-top: 100px;
   margin-top: 25px;
 }
+
 .miConocimiento{
   padding-top: 50px;
 }
@@ -215,7 +208,7 @@ h1#BoldTitleFont {
 .botonesConoceme{
   padding-bottom: 70px;
 }
-.mediaLinks,.subtitulo,.tituloPadding,.undertitle{
+.mediaLinks,.subtitulo,.tituloPadding{
   padding-bottom: 10px;
 }
 
@@ -377,23 +370,33 @@ footer p {
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: "Space Grotesk", sans-serif;
+  color:white;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   font-family: "Space Grotesk", sans-serif;
+  color:white;
 }
 :-ms-input-placeholder { /* IE 10+ */
   font-family: "Space Grotesk", sans-serif;
+  color:white;
 }
 :-moz-placeholder { /* Firefox 18- */
   font-family: "Space Grotesk", sans-serif;
+  color:white;
 }
-
-input[type="text"]
+input
 {
   font-family: "Space Grotesk", sans-serif;
+  color:white;
 }
-input[type="email"]
-{
+textarea {
+  font-family: "Space Grotesk", sans-serif;
+}
+input, select, textarea{
+  font-family: "Space Grotesk", sans-serif;
+}
+
+textarea:focus, input:focus {
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -402,6 +405,9 @@ input[type="email"]
   body{
     padding-left: 10%;
     padding-right: 10%;
+  }
+  #imgHabilidad{
+    height:30px;
   }
   #SocialMedia{
     height: 25px;
