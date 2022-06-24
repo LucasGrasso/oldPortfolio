@@ -47,7 +47,7 @@ html {
 #btnTitleFont{
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(0.95rem,2vw,1.2rem);
-  color: white;
+  color: #133B5C;
   text-decoration: none;
 }
 .undertitle{
@@ -61,19 +61,19 @@ html {
 }
 #PinkTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  color: #E61366;
+  color: #FCDAB7;
   font-size: clamp(1.8rem,4vw,2.2rem);
   padding-top: 15px;
 }
 #PurpleTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  color: #B2007D;
+  color: #FCDAB7;
   font-size: xx-large;
   text-decoration: none;
 }
 #smPurpleTitleFont{
   font-family: "Space Grotesk", sans-serif;
-  color: #B2007D;
+  color: #FCDAB7;
   font-size: large;
   text-decoration: none;
 }
@@ -108,7 +108,7 @@ html {
 .card{
   height: 100%;
   border-radius: 15px;
-  background-color:#140B48 ;
+  background-color:#133B5C ;
 }
 
 .rounded{
@@ -120,7 +120,7 @@ body{
   margin-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #0B0435;
+  background-color: #14213D;
 }
 .Hablemos{
   font-family: "Space Grotesk", sans-serif;
@@ -132,7 +132,7 @@ body{
   height: auto;
   width: 100%;
   border-radius: 25px;
-  background-color: #130C40;
+  background-color: #133B5C;
   margin-bottom: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -146,7 +146,7 @@ body{
   height: auto;
   width: 20%;
   border-radius: 25px;
-  background-color: #130C40;
+  background-color: #133B5C;
   margin-bottom: 10px;
 }
 .habilidades {
@@ -190,7 +190,7 @@ body{
 }
 
 h1#BoldTitleFont {
-  color: #F42F7D;
+  color: #FCDAB7;
 }
 
 #fotomi{
@@ -220,16 +220,17 @@ h1#BoldTitleFont {
 .card-body{
   display: flex;
   flex-direction: column;
-  background-color:#130C40;
+  background-color:#133B5C;
   border-radius:15px;
 }
 .btn-primary{
-  background-color:#F42F7D;
-  border-color:#F42F7D;
+  background-color:#FCDAB7;
+  border-color:#FCDAB7;
 }
-.btn-primary:hover {
-  background-color:#6F0B51;
-  border-color:#6F0B51;
+.btn-primary:hover, .btn-danger:hover, .btn-outline-secondary:hover{
+  background-color:#061638;
+  border-color:#061638;
+  color: white !important;
   transition: 0.2s;
 }
 
@@ -239,50 +240,13 @@ h1#BoldTitleFont {
   transition: 0.2s;
 }
 
-.btn-danger{
-  background-color:#F42F7D;
-  border-color:#F42F7D;
-}
-.btn-danger:hover {
-  background-color:#6F0B51;
-  border-color:#6F0B51;
-  transition: 0.2s;
-}
-.btn-danger:active {
-  background-color:#0C043F;
-  border-color:#0C043F;
-  transition: 0.2s;
-}
-.btn-outline-primary{
-  border-color:#F42F7D;
-  color:#F42F7D;
-  margin-right: 10px;
-}
 .btn-outline-secondary{
   border-left: none;
   border-color: white;
-  color: white;
-}
-.btn-outline-primary:hover{
-  background-color:#6F0B51;
-  color:white;
-  border-color:#6F0B51;
-  transition: 0.2s;
-}
-.btn-outline-secondary:hover{
-  border-left: none;
-  background-color:grey;
-  color:white;
-  border-color:grey;
-  transition: 0.2s;
+  color: white !important;
 }
 
-.btn-outline-primary:active {
-  background-color:#0C043F;
-  border-color:#0C043F;
-  color:white;
-  transition: 0.2s;
-}
+
 
 .lgr{
       object-fit: contain;
@@ -353,16 +317,16 @@ footer p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0B0435; 
+  background: #1D2D50; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #E61366; 
+  background: #FCDAB7; 
   border-radius: calc(15px / 2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #40051C; 
+  background: #07243D; 
   border-radius: calc(15px / 2);
 }
 
@@ -440,7 +404,7 @@ textarea:focus, input:focus {
     height: auto;
     width: 50%;
     border-radius: 25px;
-    background-color: #130C40;
+    background-color: #133B5C;
     margin-bottom: 10px;
   }
   .habilidad h1{
