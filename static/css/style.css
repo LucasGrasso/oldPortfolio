@@ -2,102 +2,110 @@ html {
   scroll-behavior: smooth;
 }
 
-#BoldTitleFont{
+#BoldTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.7rem,4vw,2.6rem);
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
 }
-#MonoTitleFont{
+#MonoTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(2rem,3vw,5rem);
-  color:white;
+  font-size: clamp(2rem, 3vw, 5rem);
+  color: white;
 }
-#mTitleFont{
+#mTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1rem,2vw,2rem);
-  color:white;
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: white;
 }
-#lTitleFont{
+.titlelgr {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1.6rem,3vw,4rem);
-  color:white;
+  font-size: clamp(2rem, 3vw, 5rem);
+  color: white;
 }
-#WhiteTitleFont{
+#lTitleFont {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.6rem, 3vw, 4rem);
+  color: white;
+}
+#WhiteTitleFont {
   font-family: "Space Grotesk", sans-serif;
   font-size: xx-large;
-  color:white;
+  color: white;
 }
-#MonoSpaceFont{
+#MonoSpaceFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(0.9rem,2vw,1.3rem);
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
   text-decoration: none;
-  color:white;
+  color: white;
 }
-#smMonoSpaceFont{
+#smMonoSpaceFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(0.8rem,4vw,1.1rem);
+  font-size: clamp(0.8rem, 4vw, 1.1rem);
   text-decoration: none;
-  color:white;
+  color: white;
 }
-#smTitleFont{
+#smTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1rem,2vw,1.7rem);
+  font-size: clamp(1rem, 2vw, 1.7rem);
   color: white;
   text-decoration: none;
 }
-#btnTitleFont{
+#btnTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(0.95rem,2vw,1.2rem);
-  color: #133B5C;
+  font-size: clamp(0.95rem, 2vw, 1.2rem);
+  color: #133b5c;
   text-decoration: none;
 }
-.undertitle{
+.undertitle {
   margin-bottom: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: white;
 }
-#xsmWhiteMonoSpaceFont{
+#xsmWhiteMonoSpaceFont {
   font-family: "Space Grotesk", sans-serif;
   font-size: small;
   color: white;
   text-decoration: none;
 }
-#PinkTitleFont{
+#PinkTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  color: #FCDAB7;
-  font-size: clamp(1.8rem,4vw,2.2rem);
+  color: #fcdab7;
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
   padding-top: 15px;
 }
-#PurpleTitleFont{
+#PurpleTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  color: #FCDAB7;
+  color: #fcdab7;
   font-size: xx-large;
   text-decoration: none;
 }
-#smPurpleTitleFont{
+#smPurpleTitleFont {
   font-family: "Space Grotesk", sans-serif;
-  color: #FCDAB7;
+  color: #fcdab7;
   font-size: large;
   text-decoration: none;
 }
 
-#SocialMedia{
+#SocialMedia {
   height: 40px;
 }
-.d-flex justify-content-center{
+.d-flex justify-content-center {
   margin-top: 10px;
 }
-.containerSobremi{
+.containerSobremi {
   margin-top: 25px;
 }
 
-.imgContainer{
+.imgContainer {
   height: 500;
   width: 350;
   border-radius: 15px;
   overflow: hidden;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.card-img-top{
-  border-radius:15px;
+.card-img-top {
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -105,40 +113,42 @@ html {
   transform: scale(1.1);
 }
 
-.card{
+.card {
   height: 100%;
   border-radius: 15px;
-  background-color:#133B5C ;
+  background-color: #133b5c;
 }
 
-.rounded{
+.rounded {
   height: 250px;
   width: 250px;
 }
 
-body{
+body {
   margin-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #14213D;
+  background-color: #14213d;
 }
-.Hablemos{
+.hablemos {
+  opacity: 0;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1rem,2vw,2.5rem);
-  color:white;
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  color: white;
+  transition: 1s;
 }
 
-.Toolbox{
+.Toolbox {
   height: auto;
   width: 100%;
   border-radius: 25px;
-  background-color: #133B5C;
+  background-color: #133b5c;
   margin-bottom: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
-.habilidad{
+.habilidad {
   padding-bottom: 10px;
   padding-right: 5px;
   padding-left: 5px;
@@ -146,7 +156,7 @@ body{
   height: auto;
   width: 20%;
   border-radius: 25px;
-  background-color: #133B5C;
+  background-color: #133b5c;
   margin-bottom: 10px;
 }
 .habilidades {
@@ -156,10 +166,10 @@ body{
   gap: 20px;
   margin-bottom: 25px;
 }
-#imgHabilidad{
+#imgHabilidad {
   margin-bottom: 10px;
   margin-top: 10px;
-  height:35px;
+  height: 35px;
 }
 .skills {
   width: 100%;
@@ -168,8 +178,8 @@ body{
   gap: 20px;
 }
 
-@media (min-width: 600px) and (orientation:landscape){
-  .Toolbox{
+@media (min-width: 600px) and (orientation: landscape) {
+  .Toolbox {
     transform-style: preserve-3d;
     transform: perspective(1000px);
   }
@@ -177,12 +187,44 @@ body{
     transform: translateZ(40px);
   }
 }
-.gracias{
-  margin-left:auto;
-  margin-right:auto;
-  width:80%;
+.gracias {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
-.containerTitulo{
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-cursor,
+.input-cursor2,
+.input-cursor3 {
+  animation: blink 0.6s linear infinite alternate;
+  display: inline-block;
+  width: 2px;
+  height: 35px;
+  background-color: white;
+  margin-left: 8px;
+}
+
+.containerTitulo {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -190,70 +232,75 @@ body{
 }
 
 h1#BoldTitleFont {
-  color: #FCDAB7;
+  color: #fcdab7;
 }
 
-#fotomi{
+#fotomi {
   height: 350px;
 }
-.containerSobremi{
+.containerSobremi {
   padding-bottom: 100px;
 }
-.Hablemos,.miTrabajo{
+.Hablemos,
+.miTrabajo {
   padding-top: 100px;
   margin-top: 25px;
 }
 
-.miConocimiento{
+.miConocimiento {
   padding-top: 50px;
 }
-.contacto{
+.contacto {
   padding-bottom: 100px;
 }
-.botonesConoceme{
+.botonesConoceme {
   padding-bottom: 70px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(0.95rem, 2vw, 1.2rem);
+  color: #133b5c;
+  text-decoration: none;
+  transition: 0.2s;
 }
-.mediaLinks,.subtitulo,.tituloPadding{
+.mediaLinks,
+.subtitulo,
+.tituloPadding {
   padding-bottom: 10px;
 }
 
-.card-body{
+.card-body {
   display: flex;
   flex-direction: column;
-  background-color:#133B5C;
-  border-radius:15px;
+  background-color: #133b5c;
+  border-radius: 15px;
 }
-.btn-primary{
-  background-color:#FCDAB7;
-  border-color:#FCDAB7;
+.btn-primary {
+  background-color: #fcdab7;
+  border-color: #fcdab7;
 }
-.btn-primary:hover, .btn-danger:hover, .btn-outline-secondary:hover{
-  background-color:#061638;
-  border-color:#061638;
+.btn-primary:hover,
+.btn-danger:hover,
+.btn-outline-secondary:hover {
+  background-color: #061638;
+  border-color: #061638;
   color: white !important;
   transition: 0.2s;
 }
 
 .btn-primary:active {
-  background-color:#0C043F;
-  border-color:#0C043F;
+  background-color: #0c043f;
+  border-color: #0c043f;
   transition: 0.2s;
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
   border-left: none;
   border-color: white;
   color: white !important;
 }
 
-
-
-.lgr{
-      object-fit: contain;
+.lgr {
+  object-fit: contain;
 }
-
-
-
 
 :root {
   --jumbotron-padding-y: 3rem;
@@ -290,26 +337,28 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.subtitulo{
+.subtitulo {
   margin-bottom: -10px;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
 
 .card-bottom {
   margin-top: auto;
 }
 
-.album{
+.album {
   margin-top: -50px;
 }
-.titleContactame{
+.titleContactame {
   margin-bottom: 20px;
 }
-.col-md-4{
+.col-md-4 {
   margin-bottom: 25px;
 }
 ::-webkit-scrollbar {
@@ -317,53 +366,59 @@ footer p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1D2D50; 
+  background: #1d2d50;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #FCDAB7; 
+  background: #fcdab7;
   border-radius: calc(15px / 2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #07243D; 
+  background: #07243d;
   border-radius: calc(15px / 2);
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   font-family: "Space Grotesk", sans-serif;
-  color:white;
+  color: white;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   font-family: "Space Grotesk", sans-serif;
-  color:white;
+  color: white;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   font-family: "Space Grotesk", sans-serif;
-  color:white;
+  color: white;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   font-family: "Space Grotesk", sans-serif;
-  color:white;
+  color: white;
 }
-input
-{
+input {
   font-family: "Space Grotesk", sans-serif;
-  color:white;
+  color: white;
 }
 textarea {
   font-family: "Space Grotesk", sans-serif;
 }
-input, select, textarea{
+input,
+select,
+textarea {
   font-family: "Space Grotesk", sans-serif;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   font-family: "Space Grotesk", sans-serif;
 }
 
-@media (max-width: 600px){
-  body{
+@media (max-width: 600px) {
+  body {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -373,22 +428,23 @@ textarea:focus, input:focus {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
   }
-  #imgHabilidad{
-    height:30px;
+  #imgHabilidad {
+    height: 30px;
   }
-  #SocialMedia{
+  #SocialMedia {
     height: 25px;
   }
-  .miConocimiento,.Hablemos{
+  .miConocimiento,
+  .Hablemos {
     margin-top: -50px;
   }
 
-  #fotomi{
+  #fotomi {
     height: 300px !important;
     margin-top: 30px;
     margin-bottom: 50px;
   }
-  .descrp{
+  .descrp {
     font-size: 4vw !important;
   }
   .habilidades {
@@ -398,22 +454,22 @@ textarea:focus, input:focus {
     gap: 10px;
     margin-bottom: 15px;
   }
-  .habilidad{
+  .habilidad {
     padding-bottom: 10px;
     margin-top: 10px;
     height: auto;
     width: 50%;
     border-radius: 25px;
-    background-color: #133B5C;
+    background-color: #133b5c;
     margin-bottom: 10px;
   }
-  .habilidad h1{
+  .habilidad h1 {
     font-size: 3.5vw !important;
   }
-  .habilidad p{
+  .habilidad p {
     font-size: 3vw !important;
   }
-  .Toolbox{
+  .Toolbox {
     border-radius: 15px;
   }
 }
