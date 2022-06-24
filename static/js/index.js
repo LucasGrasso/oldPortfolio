@@ -20,7 +20,6 @@ async function type(sentence, eleRef, delay = 100) {
     $(eleRef).append(letters[i]);
     i++;
   }
-  document.getElementById("input-cursor").style.display = "none";
   return;
 }
 
@@ -51,7 +50,7 @@ async function init() {
   document.getElementById("input-cursor3").style.display = "none";
   type("<Lucas Grasso Ramos>", "#palabra");
   await waitForMs(2000);
-  /*     document.getElementById("input-cursor").style.display = "none"; */
+  document.getElementById("input-cursor").style.display = "none"; 
   document.getElementById("input-cursor2").style.display = "block";
   type("Software Developer", "#palabra2");
   await waitForMs(2000);
