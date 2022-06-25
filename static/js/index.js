@@ -41,7 +41,7 @@ function fadein(element) {
 }
 
 async function init() {
-  document.getElementById("hablemos").style.opacity = 0;
+  document.getElementById("btnhablemos").style.opacity = 0;
   document.getElementById("input-cursor").style.display = "none";
   document.getElementById("input-cursor2").style.display = "none";
   type("Hola, soy", "#lTitleFont");
@@ -54,7 +54,7 @@ async function init() {
   document.getElementById("input-cursor2").style.display = "block";
   type("Software Developer", "#palabra2");
   await waitForMs(2000);
-  fadein(document.getElementById("hablemos"));
+  fadein(document.getElementById("btnhablemos"));
 }
 
 init();

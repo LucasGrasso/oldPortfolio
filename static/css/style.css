@@ -134,7 +134,7 @@ body {
   opacity: 0;
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1rem, 2vw, 2.5rem);
-  color: white;
+  color: white !important;
   transition: 1s;
 }
 
@@ -277,6 +277,12 @@ h1#BoldTitleFont {
   background-color: #fcdab7;
   border-color: #fcdab7;
 }
+#btnhablemos{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(0.95rem, 2vw, 1.2rem);
+  color: #133b5c;
+  text-decoration: none;
+}
 .btn-primary:hover,
 .btn-danger:hover,
 .btn-outline-secondary:hover {
@@ -357,6 +363,7 @@ footer p {
 }
 .titleContactame {
   margin-bottom: 20px;
+  color: white;
 }
 .col-md-4 {
   margin-bottom: 25px;
