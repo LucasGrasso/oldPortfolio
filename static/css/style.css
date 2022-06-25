@@ -1,5 +1,5 @@
-html {
-  scroll-behavior: smooth;
+html, body { 
+  scroll-behavior: smooth !important;
 }
 
 #BoldTitleFont {
@@ -130,14 +130,10 @@ body {
   padding-right: 5%;
   background-color: #14213d;
 }
-.hablemos {
-  opacity: 0;
+.Hablemos {
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(1rem, 2vw, 2.5rem);
-<<<<<<< HEAD
-  color: white !important;
-=======
->>>>>>> 090344998344732f01a12adc320a3e24dd34dc65
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: white;
   transition: 1s;
 }
 
