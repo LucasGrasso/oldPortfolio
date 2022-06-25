@@ -88,6 +88,7 @@ html, body {
 
 #SocialMedia {
   height: 40px;
+  margin-right: 10px;
 }
 .d-flex justify-content-center {
   margin-top: 10px;
@@ -439,6 +440,7 @@ input:focus {
   }
   #SocialMedia {
     height: 25px;
+    margin-right: 5px;
   }
   .miConocimiento,
   .Hablemos {
