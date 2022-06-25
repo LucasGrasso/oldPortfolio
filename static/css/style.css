@@ -134,7 +134,6 @@ body {
   opacity: 0;
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1rem, 2vw, 2.5rem);
-  color: white;
   transition: 1s;
 }
 
