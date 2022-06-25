@@ -134,7 +134,10 @@ body {
   opacity: 0;
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1rem, 2vw, 2.5rem);
+<<<<<<< HEAD
   color: white !important;
+=======
+>>>>>>> 090344998344732f01a12adc320a3e24dd34dc65
   transition: 1s;
 }
 
