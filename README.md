@@ -1,21 +1,18 @@
 ### [Lucas Grasso Ramos](https://lucasgrasso.com.ar/)
 ---
 
-👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3 y C++. Tengo experiencia en Machine Learning y en diseño de interfaces utilizando herramientas como Figma y TensorFlow.
+👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3, C++ y Solidity. Tengo experiencia en Machine Learning, Smart Contract development y en diseño de interfaces y experiencias de usuario.
 
 - 👨🏻‍🎓TIC 
 - 🐍Python
 - 💻C++
 - 🎨Figma
 - 🧰Toolbox:<br/>  
+<img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" height="70px" alt="Solidity"> 
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" height="70px" alt="Python"> <img src="https://github.com/isocpp/logos/blob/master/cpp_logo.svg" height="70px" alt="C++">
 <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" height="70px" alt="Figma"> <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" height="70px" alt="Numpy"> <img src="https://products.fileformat.com/audio/python/librosa/header-image.png" height="70px" alt="Librosa"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" height="70px" alt="Jupyter"> <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" height="70px" alt="Tensorflow"><img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" height="70px" alt="Flask"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" height="70px" alt="JavaScript"> <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original-wordmark.svg" height="70px" alt="Arduino"> <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" height="70px" alt="Visual Studio"> <img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original.svg" height="70px" alt="Heroku"> <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" height="70px" alt="GitHub"> <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg" height="70px" alt="Pycharm"> <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" height="70px" alt="Conda">  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" height="70px" alt="Pandas">
 <img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg" height="70px" alt="Slack"><img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" height="70px" alt="Trello"><img src="https://clickup.com/landing/images/for-se-page/clickup.png" height="80px" alt="Clickup">
 <br/>  
--Estoy aprendiendo:
-
-<img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original-wordmark.svg" height="70px" alt="Go"><img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" height="70px" alt="Solidity">
-
 ---
 
 Mis proyectos:
