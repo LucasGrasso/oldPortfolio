@@ -4,6 +4,7 @@
 👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3, C++ y Solidity. Tengo experiencia en Machine Learning, Smart Contract development y en diseño de interfaces y experiencias de usuario.
 
 - 👨🏻‍🎓TIC 
+- ◼Solidity
 - 🐍Python
 - 💻C++
 - 🎨Figma
