@@ -16,9 +16,4 @@
 <br/>  
 ---
 
-Mis proyectos:
-- [Orthix](https://orthix.herokuapp.com) - Finalista de INNOVAR 2021
-- [EcoEye](https://eco-eye.herokuapp.com)
-
----
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGrasso&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
