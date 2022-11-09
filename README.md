@@ -20,3 +20,12 @@
 ### Software Development
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![cplusplus](https://img.shields.io/badge/C++-F16822?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### Scientific Stack
+![numpy](https://img.shields.io/badge/NumPy-00aae4?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/Pandas-9B26B6?style=for-the-badge&logo=pandas&logoColor=white)
+![plotly](https://img.shields.io/badge/Plotly-3776AB?style=for-the-badge&logo=plotly&logoColor=white)
+
+### UX/UI Design
+![figma](https://img.shields.io/badge/Figma-AA336A?style=for-the-badge&logo=figma&logoColor=white)
