@@ -3,14 +3,19 @@
 
 👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3, C++ y Solidity. Tengo experiencia en Machine Learning, Smart Contract development y en diseño de interfaces y experiencias de usuario.
 
-- 👨🏻‍🎓TIC 
-- ◼Solidity
-- 🐍Python
-- 💻C++
-- 🎨Figma
-- 🧰Toolbox:<br/>  
+### Blockchain Development
+![solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![web3](https://img.shields.io/badge/Web_3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" height="70px" alt="Solidity"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" height="70px" alt="Python"> <img src="https://github.com/isocpp/logos/blob/master/cpp_logo.svg" height="70px" alt="C++">
-<img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" height="70px" alt="Figma"> <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" height="70px" alt="Numpy"> <img src="https://products.fileformat.com/audio/python/librosa/header-image.png" height="70px" alt="Librosa"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" height="70px" alt="Jupyter"> <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" height="70px" alt="Tensorflow"><img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" height="70px" alt="Flask"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" height="70px" alt="JavaScript"> <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original-wordmark.svg" height="70px" alt="Arduino"> <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" height="70px" alt="Visual Studio"> <img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original.svg" height="70px" alt="Heroku"> <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" height="70px" alt="GitHub"> <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg" height="70px" alt="Pycharm"> <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" height="70px" alt="Conda">  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" height="70px" alt="Pandas">
-<img src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg" height="70px" alt="Slack"><img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" height="70px" alt="Trello"><img src="https://clickup.com/landing/images/for-se-page/clickup.png" height="80px" alt="Clickup">
-<br/>  
+### Back-End Development
+
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![nodejs](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+### Software Development
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
