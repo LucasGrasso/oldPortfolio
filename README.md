@@ -3,6 +3,10 @@
 
 👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3, C++ y Solidity. Tengo experiencia en Machine Learning, Smart Contract development y en diseño de interfaces y experiencias de usuario. Creador del EIP-5516.
 
+### Portfolios:
+* https://cmd.lucasgrasso.com.ar/
+* https://lucasgrasso.com.ar/
+
 ### Blockchain Development
 ![solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
