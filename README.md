@@ -1,7 +1,8 @@
 ### [Lucas Grasso Ramos](https://lucasgrasso.com.ar/)
 ---
 
-👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python3, C++ y Solidity. Tengo experiencia en Machine Learning, Smart Contract development y en diseño de interfaces y experiencias de usuario. Creador del EIP-5516.
+👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python y Solidity. Tengo experiencia en Machine Learning, Smart Contract development, desarrollo de WebApps y en diseño de interfaces y experiencias de usuario.  
+Creador del [EIP-5516](https://eips.ethereum.org/EIPS/eip-5516).
 
 ### Portfolios:
 * https://cmd.lucasgrasso.com.ar/
@@ -16,15 +17,25 @@
 
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![nodejs](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![mongoDB](https://img.shields.io/badge/MongoDB-3FA037?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Front-End Development
+![react](https://img.shields.io/badge/React.js-61DBFB?style=for-the-badge&logo=react&logoColor=black)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML%](https://img.shields.io/badge/HTML-f06529?style=for-the-badge&logo=HTML5&logoColor=white)
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![tailwindcss](https://img.shields.io/badge/TailwindCss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![css](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 ### Software Development
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![cplusplus](https://img.shields.io/badge/C++-F16822?style=for-the-badge&logo=cplusplus&logoColor=white)
+![solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
 ### Scientific Stack
 ![numpy](https://img.shields.io/badge/NumPy-00aae4?style=for-the-badge&logo=numpy&logoColor=white)
