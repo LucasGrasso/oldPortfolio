@@ -2,12 +2,13 @@
 ---
 
 👋Hola, mi nombre es Lucas Grasso Ramos y soy un desarrollador de software especializado en python y Solidity. Tengo experiencia en Machine Learning, Smart Contract development, desarrollo de WebApps y en diseño de interfaces y experiencias de usuario. Co-Founder de [Zerti](https://zerti.com.ar/).  
-Creador del [EIP-5516](https://eips.ethereum.org/EIPS/eip-5516).
+Co-creador del [EIP-5516](https://eips.ethereum.org/EIPS/eip-5516).
 
-### Portfolios:
+## Portfolios:
 * https://cmd.lucasgrasso.com.ar/
 * https://lucasgrasso.com.ar/
 
+## Tech Stack
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasGrasso&layout=compact&theme=dark)
 
 ### Blockchain Development
@@ -46,7 +47,6 @@ Creador del [EIP-5516](https://eips.ethereum.org/EIPS/eip-5516).
 ### UX/UI Design
 ![figma](https://img.shields.io/badge/Figma-AA336A?style=for-the-badge&logo=figma&logoColor=white)
 
-
-### Proyectos destacados
+## Proyectos destacados
 [![Zerti](https://github-readme-stats.vercel.app/api/pin/?username=ZertiApp&repo=Zerti&theme=dark&show_owner=true)](https://github.com/ZertiApp/Zerti)
 [![CMDPortfolio](https://github-readme-stats.vercel.app/api/pin/?username=LucasGrasso&repo=CMDPortfolio&theme=dark&show_owner=true)](https://github.com/LucasGrasso/CMDPortfolio)
