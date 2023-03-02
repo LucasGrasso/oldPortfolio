@@ -46,6 +46,7 @@ Co-creador del [EIP-5516](https://eips.ethereum.org/EIPS/eip-5516).
 ![numpy](https://img.shields.io/badge/NumPy-00aae4?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/Pandas-9B26B6?style=for-the-badge&logo=pandas&logoColor=white)
 ![plotly](https://img.shields.io/badge/Plotly-3776AB?style=for-the-badge&logo=plotly&logoColor=white)
+![jupyter_notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### UX/UI Design
 ![figma](https://img.shields.io/badge/Figma-AA336A?style=for-the-badge&logo=figma&logoColor=white)
